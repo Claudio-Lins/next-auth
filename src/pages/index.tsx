@@ -8,7 +8,7 @@ import useRequireAuth from "../../lib/useRequireAuth";
 const Home: NextPage = () => {
   const { data: session } = useSession();
 
-  const router = useRouter()
+  // const router = useRouter()
 
 
   // const session = useRequireAuth()

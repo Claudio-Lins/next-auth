@@ -8,7 +8,7 @@ export default function Login() {
   const router = useRouter();
 
   useEffect(() => {
-    if (session) router.push("/");
+    if (session) router.push("/admin");
   }, [session]);
 
   return (
