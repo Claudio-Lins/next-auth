@@ -9,7 +9,7 @@ const Home: NextPage = () => {
   const { data: session } = useSession();
   console.log('SessionProvider', session);
 
-  // const router = useRouter()
+  const router = useRouter()
 
 
   // const session = useRequireAuth()
